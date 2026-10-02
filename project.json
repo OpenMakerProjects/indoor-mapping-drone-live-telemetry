@@ -1,0 +1,21 @@
+{
+  "id": 813,
+  "title": "Indoor Mapping Drone Live Telemetry",
+  "repository_slug": "indoor-mapping-drone-live-telemetry",
+  "category": "Drones",
+  "platform": "RP2040",
+  "platform_family": "arduino",
+  "difficulty": "Advanced",
+  "estimated_hours": 52,
+  "connectivity": "MAVLink",
+  "components": [
+    "LiDAR",
+    "barometer",
+    "GPS module"
+  ],
+  "scope": "Build a drones prototype that uses LiDAR, barometer, GPS module to stream position, battery, and sensor status. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Live Telemetry demonstration with repeatable test steps",
+  "mode": "telemetry",
+  "entrypoint": "firmware/indoor-mapping-drone-live-telemetry/indoor-mapping-drone-live-telemetry.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
